@@ -5,7 +5,7 @@ Links to st :
 + https://st.suckless.org/
 + https://git.suckless.org/st
 
-\
+
 ## Patches applied
 + alpha
 + anysize
