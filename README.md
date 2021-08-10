@@ -1,7 +1,7 @@
 # st - Simple Terminal
-My fork of st (suckless's simple terminal) with patches for my convenience.
-https://st.suckless.org/
-https://git.suckless.org/st
+My fork of st (suckless's simple terminal) with patches for my convenience. Links to st :
++ https://st.suckless.org/
++ https://git.suckless.org/st
 
 ## Patches applied
 + alpha
