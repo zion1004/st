@@ -26,4 +26,4 @@ The custom branch is like a vanilla st with vanilla patches done with zero confi
 The branch called custom-config is the custom branch with gruvbox-light patch applied and some changes in config.def.h to suite my needs. \
 \
 
-libxft-bgra (AUR) for color emoji support
+`libxft-bgra (AUR) for color emoji support`
