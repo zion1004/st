@@ -112,7 +112,7 @@ void *xmalloc(size_t);
 int isboxdraw(Rune);
 ushort boxdrawindex(const Glyph *);
 #ifdef XFT_VERSION
-void boxdraw_xinit*Display *, Colormap, XftDraw *, Visual *);
+void boxdraw_xinit(Display *, Colormap, XftDraw *, Visual *);
 void drawboxes(int, int, int, int, XftColor *, XftColor *, const XftGlyphFontSpec *, int);
 #endif
 void *xrealloc(void *, size_t);
