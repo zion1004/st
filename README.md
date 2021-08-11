@@ -23,7 +23,7 @@ While the patches are applied, no configuration has beed done other than the fon
 \
 The custom branch is like a vanilla st with vanilla patches done with zero configuration (except for the font size). \
 \
-The branch called custom-config is the custom branch with gruvbox-light patch applied and some changes in config.def.h to suite my needs. \
+The branch called custom-config is the custom branch with gruvbox-light patch applied and some changes in config.def.h to suite my needs. 
 
 
 `libxft-bgra (AUR) for color emoji support`
