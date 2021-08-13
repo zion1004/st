@@ -36,7 +36,7 @@ Patches applied in the custom branch :
 The branch called custom-config is the custom branch with gruvbox-light patch applied and some changes in config.def.h to suite my needs. 
 
 
-## Wierd interaction
+## Weird interaction
 For some reason, alpha doesn't like light background color and interacts very weirdly. Works fine for black background, but not with the light beige gruvbox-light bg color. 
 
 ## Extra
