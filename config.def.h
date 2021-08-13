@@ -116,7 +116,6 @@ float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-<<<<<<< HEAD
 	/* 8 normal colors */
 	"#fbf1c7", // black
 	"#cc241d", // red3
