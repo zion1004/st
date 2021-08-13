@@ -118,45 +118,69 @@ float alpha = 0.8;
 static const char *colorname[] = {
 <<<<<<< HEAD
 	/* 8 normal colors */
-	"#fbf1c7", // black
-	"#cc241d", // red3
-	"#98971a", // green3
-	"#d79921", // yellow3
-	"#458588", // blue2
-	"#b16286", // magenta3
-	"#689d6a", // cyan3
-	"#7c6f64", // gray90
+	"black",
+	"red3",
+	"green3",
+	"yellow3",
+	"blue2",
+	"magenta3",
+	"cyan3",
+	"gray90",
 
 	/* 8 bright colors */
-	"#928374", // gray50
-	"#9d0006", // red
-	"#79740e", // green
-	"#b57614", // yellow
-	"#076678", // blue
-	"#8f3f71", // magenta
-	"#427b58", // cyan
-	"#3c3836", // white
+	"gray50",
+	"red",
+	"green",
+	"yellow",
+	"#5c5cff",
+	"magenta",
+	"cyan",
+	"white",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc", // gray80 
-	"#555555", // dark grey
-	"black", // black
+	"#cccccc",
+	"#555555",
+	"black",
+};
+=======
+>>>>>>> gruvbox-light
+
+  /* 8 normal colors */
+  [0] = "#fbf1c7", /* hard contrast: #f9f5d7 / soft contrast: #f2e5bc */
+  [1] = "#cc241d", /* red     */
+  [2] = "#98971a", /* green   */
+  [3] = "#d79921", /* yellow  */
+  [4] = "#458588", /* blue    */
+  [5] = "#b16286", /* magenta */
+  [6] = "#689d6a", /* cyan    */
+  [7] = "#7c6f64", /* white   */
+
+  /* 8 bright colors */
+  [8]  = "#928374", /* black   */
+  [9]  = "#9d0006", /* red     */
+  [10] = "#79740e", /* green   */
+  [11] = "#b57614", /* yellow  */
+  [12] = "#076678", /* blue    */
+  [13] = "#8f3f71", /* magenta */
+  [14] = "#427b58", /* cyan    */
+  [15] = "#3c3836", /* white   */
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor
  */
+<<<<<<< HEAD
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 258;
 static unsigned int defaultcs = 256;
-/* =======
+=======
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
 static unsigned int defaultcs = 15;
->>>>>>> gruvbox-light */
+>>>>>>> gruvbox-light
 static unsigned int defaultrcs = 257;
 
 /*
